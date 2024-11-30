@@ -1,0 +1,41 @@
+Lakukan instalasi IDE (pilih salah satu):
+➢ DevC++
+➢ Visual Studio Code
+➢ CodeBlocks
+Langkah-langkah untuk Instalasi Visual Studio Code:
+Unduh Visual Studio Code:
+
+Kunjungi situs resmi Visual Studio Code: https://code.visualstudio.com/
+Klik tombol "Download for Windows" (atau sesuai dengan sistem operasi Anda, seperti macOS atau Linux).
+Instalasi di Windows:
+
+Setelah file unduhan selesai, buka file VSCodeSetup.exe untuk memulai proses instalasi.
+Pilih opsi "I accept the agreement" untuk menyetujui persyaratan lisensi.
+Pilih lokasi folder tempat instalasi Visual Studio Code.
+Pada layar berikutnya, Anda akan diberi beberapa pilihan tambahan. Secara umum, Anda bisa memilih default, tetapi pastikan untuk mencentang opsi "Add to PATH" agar VS Code dapat dijalankan dari Command Prompt.
+Klik Install untuk melanjutkan.
+Setelah instalasi selesai, klik Finish.
+Menjalankan Visual Studio Code:
+
+Setelah instalasi selesai, Anda bisa membuka Visual Studio Code dari menu Start atau dengan mencarinya di kolom pencarian Windows.
+Anda juga bisa menjalankannya langsung dari Command Prompt dengan mengetik code.
+Menginstal Extension (Opsional, untuk mendukung bahasa pemrograman):
+
+Setelah membuka VS Code, Anda bisa menambahkan ekstensi untuk bahasa pemrograman yang Anda gunakan.
+Misalnya, jika Anda ingin menulis kode C++:
+Klik ikon Extensions di sisi kiri layar (ikon persegi dengan empat kotak kecil).
+Ketik "C++" di kotak pencarian.
+Pilih ekstensi seperti "C/C++" dari Microsoft dan klik Install.
+Ini akan menambahkan dukungan untuk bahasa C++ di VS Code.
+Menguji VS Code:
+
+Setelah menginstal ekstensi yang diperlukan, Anda bisa mulai membuat file baru dengan mengklik File > New File.
+Tulis kode sederhana seperti:
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "Hello, World!" << endl;
+    return 0;
+}
+Simpan file dengan ekstensi .cpp dan jalankan program Anda menggunakan terminal yang ada di VS Code (atau menggunakan pengaturan eksternal jika diperlukan).
